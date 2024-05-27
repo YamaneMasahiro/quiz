@@ -1,0 +1,159 @@
+h1 {
+  font-family: "Hannari";
+}
+body {
+  font-family: "Hannari";
+  text-align: center;
+  background-image:url('haikei.jpeg');
+  font-family: Arial, sans-serif;
+}
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+img {
+    width: 50%;
+}
+.px{
+  font-size: 39px
+}
+.quizzes-container {
+  width: 400px;
+  margin: 50px auto;
+}
+.quiz-container {
+  border-bottom:1px solid black;
+  padding-bottom: 20px;
+}
+.top{
+  background-color: #6F9;
+}
+/*
+.btn {
+  margin-top: 20px;
+  font-family: serif;
+  background-color: white;
+}
+.btn0 {
+  margin-top: 20px;
+  font-family: serif;
+  background-color: white;
+}
+.btn2 {
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 350px;
+  top: 150px;
+} */
+/* ボタン */
+.button {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 20px; /* パディングの調整 */
+  border-radius: 5px; /* 角丸の調整 */
+  background-color: #3498DB; /* 新しい背景色 */
+  border: 2px solid #2980B9; /* ボーダーの追加 */
+  transition: background-color 0.3s ease, color 0.3s ease; /* トランジションの追加 */
+}
+/* ボタンにホバーしたときのスタイル */
+.button:hover {
+  background-color: #2980B9; /* ホバー時の背景色 */
+  color: #fff; /* ホバー時のテキスト色 */
+}
+.score-container {
+  border: 1px solid black;
+  height: 50px;
+}
+.btn-score {
+  display: block;
+  margin: 20px auto;
+  font-family: serif;
+  background-color: white;
+}
+/*レイアウト用ボックスを囲む*/
+.container {
+  width:960px;
+  margin-right:auto;
+  margin-left:auto;
+}
+/*クリアフィクス*/
+.clear-fix:after{
+  content:"";
+  display:block;
+  clear:both;
+  border-right:1px solid #ccc;
+  border-left:1px solid #ccc;
+}
+nav ul li {
+  float:left;
+  width:25%;
+  box-sizing:border-box;
+  text-align:center;
+}
+nav {
+  border-top:2px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+nav ul li a:hover {
+  color: #fff;
+  background-color:#16a765;
+  border-bottom:1px solid #16A765;
+}
+nav ul li a {
+  display: block;
+  padding:15px;
+  border-left:1px dotted #D6D6D6;
+}
+nav ul li:last-chaild{
+  border-right:1px dotted #D6D6D6;
+}
+/*
+nav ul .active a {
+  border-bottom: 1px solid #ccc;
+}
+/*メイン画像*/
+.main-img{
+  /*margin-top:30px;
+  margin-bottom:40px;*/
+  background-image: url(fodloss.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+  width:px;
+}
+/*フッター*/
+.footer-left{
+  float: center;
+  width: 300px;
+  margin-left: 40px;
+}
+.copyright{
+  text-align: center;
+  color:#666;
+  font-size: 11px;
+  margin: 20px 0;
+}
+footer {
+  border-top:1px solid #ddd;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer-logo{
+  color:#333;
+  font-size:20px;
+  font-weight:bold;
+  float:center;
+}
+footer ul li a:hover{
+  text-decoration: underline;
+}
+
